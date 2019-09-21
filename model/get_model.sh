@@ -8,3 +8,5 @@ URL=https://storage.googleapis.com/bert_models/2018_10_18/${model}
 wget $URL
 
 unzip -o ${model}
+
+rm ${model}
